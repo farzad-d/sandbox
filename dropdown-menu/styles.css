@@ -1,0 +1,26 @@
+body {
+  background-color: gray;
+}
+
+.hide-menu {
+  display: none;
+}
+
+#dropdown-items {
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 1.1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+li:hover {
+  cursor: pointer;
+  color: blue;
+}
